@@ -11,7 +11,9 @@ Each server will be represented by a dot. Green, yellow or red depending on the 
 ## Installation
 
 `git clone https://github.com/apocas/prometheus-canvas`
+
 `npm install`
+
 `PROMETHEUS=http://127.0.0.1:9090 node main.js`
 
 ## Env Vars

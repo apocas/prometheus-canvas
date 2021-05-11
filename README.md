@@ -5,6 +5,7 @@ Realtime turnkey canvas status page for [Prometheus](https://prometheus.io)
 * Each server is represented by a dot. Green, yellow or red depending on the server's health thresholds.
 * Dots close to each other will connect.
 * Collision avoidance is random'ish.
+* Servers names are anonymized/hashed, built to be public.
 
 ## Demo
 

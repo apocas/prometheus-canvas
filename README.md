@@ -1,6 +1,6 @@
 # prometheus-canvas
 
-Turnkey canvas dashboard for [Prometheus](https://prometheus.io)
+Turnkey canvas status page for [Prometheus](https://prometheus.io)
 
 Each server will be represented by a dot. Green, yellow or red depending on the server's health thresholds.
 

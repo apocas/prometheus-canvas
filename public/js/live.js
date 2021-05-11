@@ -16,7 +16,7 @@ var Live = function () {
 
   setTimeout(function () {
     document.getElementById('github').remove();
-  }, 30000);
+  }, 15000);
 
   this.connection = io();
 

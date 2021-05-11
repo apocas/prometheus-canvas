@@ -14,6 +14,8 @@ var Live = function () {
     self.setup();
   };
 
+  this.sizeMultiplier = 1;
+
   setTimeout(function () {
     document.getElementById('github').remove();
   }, 15000);
@@ -25,20 +27,24 @@ var Live = function () {
       document.getElementById('logo').src = logo;
     });
 
+    self.connection.on('size', function (size) {
+      self.sizeMultiplier = size;
+    });
+
     self.connection.on('servers', function (alertArray) {
       let alertArrayKeys = Object.keys(alertArray);
       for (let alert of alertArrayKeys) {
         var node = self.findNode(alert);
-        var size = 5;
 
+        var size = 5 * self.sizeMultiplier;
         var color = '#01BF21';
 
         if (alertArray[alert] === 'red') {
           color = '#D94D56';
-          size = 10;
+          size = 10 * self.sizeMultiplier;
         } else if (alertArray[alert] === 'yellow') {
           color = '#EFD38A';
-          size = 7;
+          size = 7 * self.sizeMultiplier;
         }
 
         if (!node) {

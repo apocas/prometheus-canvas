@@ -28,6 +28,7 @@ Realtime turnkey canvas status page for [Prometheus](https://prometheus.io)
 - **YELLOW_THRESHOLD** - Number of alerts for a server to be considered yellow. Default: 2
 - **PORT** - Listening port. Default: 80
 - **INTERVAL** - Data refresh interval in seconds. Default: 60
+- **SIZE** - Dots size multiplier. Default: 1
 
 ## License
 

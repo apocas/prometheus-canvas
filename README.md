@@ -14,7 +14,7 @@ Each server will be represented by a dot. Green, yellow or red depending on the 
 
 `npm install`
 
-`PROMETHEUS=http://127.0.0.1:9090 node main.js`
+`PROMETHEUS=http://127.0.0.1:9090 npm start`
 
 ## Env Vars
 - **PROMETHEUS** - Prometheus URL, using default queries. Example: http://127.0.0.1:9090

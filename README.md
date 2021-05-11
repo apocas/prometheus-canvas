@@ -23,6 +23,7 @@ Each server will be represented by a dot. Green, yellow or red depending on the 
 - **LOGO** - Background logo URL. Example: http://127.0.0.1/logo.png
 - **RED_THRESHOLD** - Number of alerts for a server to be considered red. Default: 4
 - **YELLOW_THRESHOLD** - Number of alerts for a server to be considered yellow. Default: 2
+- **PORT** - Listening port. Default: 80
 
 ## License
 

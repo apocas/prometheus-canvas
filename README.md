@@ -1,6 +1,6 @@
 # prometheus-canvas
 
-Turnkey canvas status page for [Prometheus](https://prometheus.io)
+Realtime turnkey canvas status page for [Prometheus](https://prometheus.io)
 
 Each server will be represented by a dot. Green, yellow or red depending on the server's health thresholds.
 
@@ -24,6 +24,7 @@ Each server will be represented by a dot. Green, yellow or red depending on the 
 - **RED_THRESHOLD** - Number of alerts for a server to be considered red. Default: 4
 - **YELLOW_THRESHOLD** - Number of alerts for a server to be considered yellow. Default: 2
 - **PORT** - Listening port. Default: 80
+- **INTERVAL** - Data refresh interval in seconds. Default: 60
 
 ## License
 
